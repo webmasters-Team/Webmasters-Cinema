@@ -1,0 +1,98 @@
+.movie {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    margin-top: 40px;
+    color: rgb(66, 64, 64);
+    height: 80vh;
+    width: 80%;
+}
+
+.leftContainer {
+    flex: 1.5;
+    padding: 30px;
+}
+
+.rightContainer {
+    height: 100%;
+    flex: 3;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.rightContainer-top {
+    flex: 1;
+    margin-bottom: 60px;
+}
+
+.rightContainer-bottom {
+    flex: 3;
+}
+
+.thumbnail-image {
+    width: 250px;
+}
+
+.backLink {
+    color: grey;
+    margin-bottom: 60px;
+    text-decoration: underline;
+}
+
+.title {
+    color: rgb(63, 62, 62);
+    margin-bottom: 10px;
+}
+
+.right-mid {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.right-mid>h2 {
+    margin-right: 15px;
+    font-size: 15px;
+    color: rgb(85, 84, 84);
+}
+
+.about-the-movie {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(85, 84, 84);
+}
+
+.genre {
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.bookBtn {
+    background-color: teal;
+    border: 1px solid black;
+    color: white;
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 130px;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.bookBtn:hover {
+    background-color: rgb(94, 179, 179);
+    transform: scale(1.1);
+}
